@@ -22,7 +22,7 @@ void displayBooks(vector<Book*> books)
         for (int i = 0; i <books.size(); i++)
         {
                 cout<<"index = " << i << " TITLE = " <<books[i]->getTitle()<<endl;
-                cout<<"index = " << i << " YEAR = " <<books[i]->getYear()<<endl;
+                cout<<"index = " << i << " YEAR  = " <<books[i]->getYear()<<endl;
         }
 }
 vector<Book*> switchBooks (vector<Book*> books, int a, int b)
